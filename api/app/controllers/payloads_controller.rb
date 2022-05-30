@@ -23,4 +23,8 @@ class PayloadsController < ApplicationController
       render status: 666
     end
   end
+  def list_all
+    payloads = Payload.all.pluck(:path, :description)
+    render json: payloads
+  end
 end

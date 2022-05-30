@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  payload: MyString
+  options: MyString
+  need_lhost: false
+  need_lport: false
+  name: MyString
+
+two:
+  payload: MyString
+  options: MyString
+  need_lhost: false
+  need_lport: false
+  name: MyString
