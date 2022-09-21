@@ -4,7 +4,6 @@ This is a simple Rails app acting as a remote delivery system for MSFVenom paylo
 
 To install:
 ```
-cd api 
 bundle install
 rake db:create
 rake db:schema:load
@@ -12,7 +11,7 @@ rake db:schema:load
 
 To run:
 ```
-cd api && rails s -b 0.0.0.0
+rails s -b 0.0.0.0
 ```
 
 Every MSFVenom option has been parameterized, so calls to the API look like this:
