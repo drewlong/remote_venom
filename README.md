@@ -13,7 +13,7 @@ rake db:schema:load
 To run:
 ```
 cd api && rails s -b 0.0.0.0
-``
+```
 
 Every MSFVenom option has been parameterized, so calls to the API look like this:
 ```
