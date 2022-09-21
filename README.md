@@ -30,7 +30,9 @@ http://192.168.1.100:3000/a?b=cD13aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwJmxob3
 ```
 To list all payloads:
 ```
-http://192.168.1.100:3000/api/payloads
+http://192.168.1.100:3000/api/payloads/list
+or 
+http://192.168.1.100:3000/a/p/l
 ```
 
 Feel free to use and modify, or contribute directly to the project. Merge requests welcome!
